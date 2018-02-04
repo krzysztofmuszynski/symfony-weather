@@ -3,8 +3,13 @@
     <div class="container-fluid background">
         <div class="container">
             <h1 class="checkweather_slogan">{{ main_slogan }}</h1>
-            <p>{{ second_slogan }} <span id="date_container"></span></p>
-            <div id="data_container"></div>
+            <p>{{ second_slogan }}<span id="date_container">{{ weather_data.getDateTime|date('d-m-Y H:i:s') }}</span></p>
+            <div id="data_container">
+                <div class="col-xs-12 col-sm-3"> Temperatura {{ weather_data.getTemperature }}&deg;C </div>
+                <div class="col-xs-12 col-sm-3"> Ciśnienie {{ weather_data.getPressure }} hPa </div>
+                <div class="col-xs-12 col-sm-3"> Temperatura min: {{ weather_data.getMinTemp }}&deg;C </div>
+                <div class="col-xs-12 col-sm-3"> Temperatura max: {{ weather_data.getMaxTemp }}&deg;C </div>
+            </div>
         </div>
     </div>
 {% endblock %}
