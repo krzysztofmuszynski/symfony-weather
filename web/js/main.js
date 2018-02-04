@@ -11,6 +11,7 @@ var API = "http://api.openweathermap.org/data/2.5/weather?q=Warszawa,pl&units=me
     outputTempMin = weatherData.main.temp_min,
     outputTempMax = weatherData.main.temp_max;
 
+    //setting up actual date to display on the page
     var date = new Date();
     var month = (date.getMonth() + 1) < 10 ? "0" + (date.getMonth() + 1) : date.getMonth() + 1;
     var day = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
