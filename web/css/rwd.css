@@ -1,1 +1,1 @@
-
+@media screen and (max-width: 667px) and (orientation : landscape) {    h1.checkweather_slogan, #date_container {        margin-top: 5%;    }    #date_container,    #data_container > div,    #data_container    {        text-align: center;        margin-top: 1%;    }}@media screen and (max-width: 736px) and (orientation : landscape) {    h1.checkweather_slogan, #date_container {        margin-top: 8%;    }    #date_container,    #data_container > div,    #data_container    {        text-align: center;        margin-top: 2%;    }}
