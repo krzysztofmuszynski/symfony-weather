@@ -18,7 +18,7 @@ var API = "http://api.openweathermap.org/data/2.5/weather?q=Warszawa,pl&units=me
     var year = date.getYear() + 1900;
 
     var dateOutput = "";
-    dateOutput += "na dzień " + day + "/" + month + "/" + year;
+    dateOutput += day + "/" + month + "/" + year;
 
     var dateContainer = document.getElementById('date_container');
     dateContainer.innerHTML = dateOutput;

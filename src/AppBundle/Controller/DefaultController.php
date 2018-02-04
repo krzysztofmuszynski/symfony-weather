@@ -13,9 +13,13 @@ class DefaultController extends Controller
      */
     public function showIndex()
     {
-        $home = "home";
+        $slogan = "Aktualna pogoda dla Warszawy";
+        $second_slogan = "na dzień ";
         return $this->render("default/index.html.twig", [
-            "home"=>$home
+            "main_slogan"=>$slogan,
+            "second_slogan"=>$second_slogan
         ]);
     }
+
+
 }

@@ -2,13 +2,9 @@
 {% block body %}
     <div class="container-fluid background">
         <div class="container">
-            <h1 class="checkweather_slogan">Aktualna pogoda dla Warszawy</h1>
-            <div id="date_container">
-
-            </div>
-            <div id="data_container">
-
-            </div>
+            <h1 class="checkweather_slogan">{{ main_slogan }}</h1>
+            <p>{{ second_slogan }} <span id="date_container"></span></p>
+            <div id="data_container"></div>
         </div>
     </div>
 {% endblock %}
