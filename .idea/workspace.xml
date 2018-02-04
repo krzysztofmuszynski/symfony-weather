@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6f5348c-27a9-4059-9659-4a1c57e39572" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/WeatherQuery.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/WeatherQuery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
-    </list>
+    <list default="true" id="a6f5348c-27a9-4059-9659-4a1c57e39572" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +88,12 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1517777506777" expanded="true" signature="1219:1224" ph="°" />
-                <marker date="1517777506777" expanded="true" signature="1521:1526" ph="°" />
-                <marker date="1517777506777" expanded="true" signature="1627:1632" ph="°" />
+                <marker date="1517779263204" expanded="true" signature="1219:1224" ph="°" />
+                <marker date="1517779263204" expanded="true" signature="1521:1526" ph="°" />
+                <marker date="1517779263204" expanded="true" signature="1627:1632" ph="°" />
               </folding>
             </state>
           </provider>
@@ -119,11 +113,11 @@
         <option value="$PROJECT_DIR$/web/css/rwd.css" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/WeatherQuery.php" />
-        <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Repository/WeatherRepository.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Service/Weather.php" />
+        <option value="$PROJECT_DIR$/web/js/main.js" />
       </list>
     </option>
   </component>
@@ -134,7 +128,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="592" />
     <option name="y" value="-8" />
     <option name="width" value="933" />
@@ -204,15 +198,15 @@
       <option name="presentableId" value="Default" />
       <updated>1517742977297</updated>
       <workItem from="1517742979406" duration="5122000" />
-      <workItem from="1517765044633" duration="13731000" />
+      <workItem from="1517765044633" duration="14238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30560000" />
+    <option name="totallyTimeSpent" value="31067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -292,10 +286,9 @@
         <state relative-caret-position="629">
           <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1517777506777" expanded="true" signature="1219:1224" ph="°" />
-            <marker date="1517777506777" expanded="true" signature="1521:1526" ph="°" />
-            <marker date="1517777506777" expanded="true" signature="1627:1632" ph="°" />
+            <marker date="1517779263204" expanded="true" signature="1219:1224" ph="°" />
+            <marker date="1517779263204" expanded="true" signature="1521:1526" ph="°" />
+            <marker date="1517779263204" expanded="true" signature="1627:1632" ph="°" />
           </folding>
         </state>
       </provider>
@@ -605,13 +598,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        <state relative-caret-position="408">
+          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1517777506777" expanded="true" signature="1219:1224" ph="°" />
-            <marker date="1517777506777" expanded="true" signature="1521:1526" ph="°" />
-            <marker date="1517777506777" expanded="true" signature="1627:1632" ph="°" />
+            <marker date="1517779263204" expanded="true" signature="1219:1224" ph="°" />
+            <marker date="1517779263204" expanded="true" signature="1521:1526" ph="°" />
+            <marker date="1517779263204" expanded="true" signature="1627:1632" ph="°" />
           </folding>
         </state>
       </provider>
