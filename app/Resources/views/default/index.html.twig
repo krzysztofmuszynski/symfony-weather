@@ -5,10 +5,14 @@
             <h1 class="checkweather_slogan">{{ main_slogan }}</h1>
             <p>{{ second_slogan }}<span id="date_container">{{ weather_data.getDateTime|date('d-m-Y H:i:s') }}</span></p>
             <div id="data_container">
-                <div class="col-xs-12 col-sm-3"> Temperatura {{ weather_data.getTemperature }}&deg;C </div>
-                <div class="col-xs-12 col-sm-3"> Ciśnienie {{ weather_data.getPressure }} hPa </div>
-                <div class="col-xs-12 col-sm-3"> Temperatura min: {{ weather_data.getMinTemp }}&deg;C </div>
-                <div class="col-xs-12 col-sm-3"> Temperatura max: {{ weather_data.getMaxTemp }}&deg;C </div>
+            <div class="col-xs-12 col-sm-3"> Temperatura: <span class="weather_data">{{ weather_data.getTemperature }}</span><sup class="celsius">o</sup></div>
+            <div class="col-xs-12 col-sm-3"> Ciśnienie: <span class="weather_data">{{ weather_data.getPressure }}</span><span class="celsius">hPa</span></div>
+            <div class="col-xs-12 col-sm-3"> Temperatura min: <span class="weather_data">{{ weather_data.getMinTemp }}</span><sup class="celsius">o</sup></div>
+            <div class="col-xs-12 col-sm-3"> Temperatura max: <span class="weather_data">{{ weather_data.getMaxTemp }}</span><sup class="celsius">o</sup></div></div>
+        </div>
+        <div class="container refresh_data">
+            <div id="cta_button btn button">
+                <a href="{{ path("fetchweather") }}" class="button">Odśwież pogodę</a>
             </div>
         </div>
     </div>

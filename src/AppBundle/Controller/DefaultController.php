@@ -28,14 +28,17 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/fetchWeatcherData", name="fetchweather")
+     * @Route("/fetchWeatherData", name="fetchweather")
      */
     public function fetchDataFromApi()
     {
 
         $this->getDoctrine()->getRepository(WeatherQuery::class)->updateWeatherData();
 
-        return new \Symfony\Component\HttpFoundation\Response('Data successfully fetched.');
+//        return new \Symfony\Component\HttpFoundation\Response('<h1 id="message">Data successfully fetched.</h1>');
+        return $this->render("default/fetchWeatherData.html.twig", [
+            "message"=> "Data successfully fetched."
+        ]);
     }
 
 
