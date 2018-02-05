@@ -1,77 +1,44 @@
-Symfony Standard Edition
-========================
+# Symfony Weather
 
-**WARNING**: This distribution does not support Symfony 4. See the
-[Installing & Setting up the Symfony Framework][15] page to find a replacement
-that fits you best.
+This is small symfony project for testing purposes created in Symfony 3.4. 
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
+### Synopsis
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+In this application I am using openweather api to fetch some data and save in the database to display information about actual weather in the browser.
 
-What's inside?
---------------
+## Getting Started
 
-The Symfony Standard Edition is configured with the following defaults:
+You should download or clone github repository to your local folder and then install using composer.
+After that just type in the command line tool "php bin/console server:run" to start application on the localhost:8000
 
-  * An AppBundle you can use to start coding;
+### Prerequisities
 
-  * Twig as the only configured template engine;
+You need to install PHP 5.6.31, Symfony 3.4 and Composer to run this application.
+All the depandencies You will find in the composer.json file in root folder of the application.
 
-  * Doctrine ORM/DBAL;
+### Installing
 
-  * Swiftmailer;
+Create project folder and copy inside all the files from repository.
+After that use command line tool and type "composer install".
 
-  * Annotations enabled for everything.
+## API Reference
 
-It comes pre-configured with the following bundles:
+Documentation link for OpenWeather API: https://openweathermap.org/api
 
-  * **FrameworkBundle** - The core Symfony framework bundle
+## Built With
 
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
+* AppBundle
+* Twig
+* Doctrine ORM/DBAL
+* Annotations
 
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
+## Author
 
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
+* **Krzysztof Muszyński** - [Krzysztof Muszyński](https://github.com/krzysztofmuszynski)
 
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
-
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
-
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
-
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
-
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
-
-  * [**SensioGeneratorBundle**][13] (in dev env) - Adds code generation
-    capabilities
-
-  * [**WebServerBundle**][14] (in dev env) - Adds commands for running applications
-    using the PHP built-in web server
-
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
+## License
 
 All libraries and bundles included in the Symfony Standard Edition are
 released under the MIT or BSD license.
 
 Enjoy!
-
-[1]:  https://symfony.com/doc/3.4/setup.html
-[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  https://symfony.com/doc/3.4/doctrine.html
-[8]:  https://symfony.com/doc/3.4/templating.html
-[9]:  https://symfony.com/doc/3.4/security.html
-[10]: https://symfony.com/doc/3.4/email.html
-[11]: https://symfony.com/doc/3.4/logging.html
-[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
-[14]: https://symfony.com/doc/current/setup/built_in_web_server.html
-[15]: https://symfony.com/doc/current/setup.html

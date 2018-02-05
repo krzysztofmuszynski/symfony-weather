@@ -34,7 +34,7 @@ class DefaultController extends Controller
     {
 
         $this->getDoctrine()->getRepository(WeatherQuery::class)->updateWeatherData();
-        
+
         return $this->render("default/fetchWeatherData.html.twig", [
             "message"=> "Data successfully fetched."
         ]);
