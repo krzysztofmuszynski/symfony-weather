@@ -34,8 +34,7 @@ class DefaultController extends Controller
     {
 
         $this->getDoctrine()->getRepository(WeatherQuery::class)->updateWeatherData();
-
-//        return new \Symfony\Component\HttpFoundation\Response('<h1 id="message">Data successfully fetched.</h1>');
+        
         return $this->render("default/fetchWeatherData.html.twig", [
             "message"=> "Data successfully fetched."
         ]);
